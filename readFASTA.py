@@ -13,7 +13,7 @@ def ReadFast(FileNameFast):
                 break
             Seq.append(Sequance)
     return Seq
-Sequances=ReadFast("sample.fast")
+Sequances=ReadFast("sample.fasta")
 print(Sequances[:4])
 
 
